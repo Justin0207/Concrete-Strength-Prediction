@@ -12,7 +12,7 @@ import base64
 import pandas as pd
 
 
-model = pickle.load(open(r'C:\Users\HP\Desktop\DS\Concrete strength\concrete_model_.pkl', 'rb'))
+model = pickle.load(open('concrete_model_.pkl', 'rb'))
 
 st.header('Concrete Strength Prediction App')
 
@@ -42,7 +42,7 @@ def set_background(main_bg):
          unsafe_allow_html=True
      )
 
-set_background(r'C:\Users\HP\Downloads\concrete(1).avif') 
+set_background('concrete(1).avif') 
 
 
 cement = st.number_input('Cement (kg/m3)', value = None, min_value = 0.0, step = 0.1)
