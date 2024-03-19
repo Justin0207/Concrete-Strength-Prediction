@@ -19,7 +19,16 @@ The predictive model employed in this project utilizes a regression-based machin
 - Hyperparameter Tuning: Optimizes model hyperparameters to enhance predictive accuracy.
 - Cross-Validation: Utilizes cross-validation techniques to ensure the robustness of the model.
 - Evaluation Metrics: Assesses model performance using metrics such as mean squared error, R-squared score, and others.
-- Deployment: The model was then deployed on the Streamlit community web app. 
+- Deployment: The model is then deployed on the Streamlit community web app.
+
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- xgboost
+- Scikit-Learn
+- Streamlit
 
 ## Feedback
 We welcome feedback and contributions! If you have any suggestions, issues, or feature requests, please create an issue or submit a pull request on GitHub.
