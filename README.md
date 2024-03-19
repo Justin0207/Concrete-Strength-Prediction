@@ -1,5 +1,5 @@
 ## Overview
-This machine learning project aims to predict the compressive strength of concrete based on its various ingredients and curing conditions. Concrete strength prediction is crucial in construction projects to ensure structural integrity and durability. By leveraging machine learning techniques, this project offers a predictive model that can estimate concrete strength with high accuracy.
+This machine learning project aims to predict the compressive strength of concrete based on its various ingredients and curing conditions. Concrete strength prediction is crucial in construction projects to ensure structural integrity and durability. By leveraging machine learning techniques, this project offers a predictive model that can estimate concrete strength with high accuracy. The deployed model can be accessed with this link[https://concrete-strength-predictor-smnheomfsmxsfmqwumynut.streamlit.app/]
 
 ## Dataset
 The dataset used in this project consists of various concrete mix designs along with their corresponding compressive strength measurements. Each sample in the dataset includes features such as cement, water, coarse aggregate, fine aggregate, age, etc. The dataset has been preprocessed to handle missing values, normalize features, and remove outliers.
